@@ -1,11 +1,9 @@
 import re
 import argparse
 
-from pathlib import Path
-
 
 def main(epic_name: str):
-    file_path = "feature_file.feature"
+    file_path = "/home/runner/work/Edit-repository-using-workflows/Edit-repository-using-workflows/workflows/feature_file.feature"
 
     with open(file_path, 'r', encoding='utf-8') as file:
         content = file.read()
