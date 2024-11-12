@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 def main(epic_name: str):
-    file_path = Path().parent.absolute().joinpath("feature_file.feature")
+    file_path = "feature_file.feature"
 
     with open(file_path, 'r', encoding='utf-8') as file:
         content = file.read()
