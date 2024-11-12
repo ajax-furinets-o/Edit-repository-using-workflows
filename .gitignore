@@ -4,6 +4,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 .env
+.idea/
 .idea/.gitignore
 # C extensions
 *.so
@@ -167,3 +168,4 @@ cython_debug/
 /.idea/inspectionProfiles/Project_Default.xml
 /.idea/vcs.xml
 /.idea/Edit-repository-using-workflows.iml
+/.idea/workspace.xml
