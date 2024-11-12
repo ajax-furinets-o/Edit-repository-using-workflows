@@ -12,6 +12,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
             python-version: '3.9'
+      - name: Deps
+        run: pip install click
 
       - name: Run
         run: python workflows/edit_feature_epic.py --epic-name PONG
